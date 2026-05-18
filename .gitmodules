@@ -1,0 +1,3 @@
+[submodule "libreriaPCB"]
+	path = libreriaPCB
+	url = https://github.com/LDMat/libreriaPCB.git
