@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "18f0e1d5-3b1c-48cf-aced-3f60a5e848c9")
+	(paper "A4")
+	(title_block
+		(title "Placa IoT")
+		(date "2026-05-19")
+		(company "ELE0226CL")
+		(comment 1 "Lara DM")
+	)
+	(lib_symbols)
+)
