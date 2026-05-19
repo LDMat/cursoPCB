@@ -27565,6 +27565,12 @@
 		)
 	)
 	(junction
+		(at 120.65 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f1374c-75d5-4955-a6c4-409d5bb7f2a3")
+	)
+	(junction
 		(at 111.76 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27632,6 +27638,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 53.34) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266c10e6-9324-427b-9af7-abb72587520c")
+	)
+	(wire
+		(pts
 			(xy 111.76 46.99) (xy 111.76 52.07)
 		)
 		(stroke
@@ -27649,6 +27665,16 @@
 			(type default)
 		)
 		(uuid "42e8f59f-2b55-43cd-a3a0-b4e4ee28e3cf")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8ae30b-f9fc-45c1-8008-b101e7968648")
 	)
 	(wire
 		(pts
@@ -27689,6 +27715,16 @@
 			(type default)
 		)
 		(uuid "7693b64b-4bc2-41c6-96bd-d15a37e75561")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa6c35e-aa1a-45be-aaab-d9ecde4de95c")
 	)
 	(wire
 		(pts
@@ -27782,13 +27818,37 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 52.07) (xy 121.92 52.07)
+			(xy 119.38 52.07) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb38bbc6-ea30-4e0d-a3d9-8babd5dd8379")
+	)
+	(global_label "IO35"
+		(shape input)
+		(at 120.65 68.58 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "addbafc9-9a97-48b6-99bf-54558ca56688")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 75.9195 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -28653,6 +28713,88 @@
 			(project "placa_IoT"
 				(path "/5cf00a4a-c4d0-4d7e-b436-de913efc1992/dbe7e60f-a367-4299-b298-ec332c6c9931"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1fa71cb-40fd-4aff-84df-2223a665eef3")
+		(property "Reference" "R3"
+			(at 123.19 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kOhm"
+			(at 123.19 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 118.872 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89a91a4b-fcca-4ce0-ae10-1060d395dc54")
+		)
+		(pin "2"
+			(uuid "a2262575-3574-4088-9490-d482f26c2be9")
+		)
+		(instances
+			(project "placa_IoT"
+				(path "/5cf00a4a-c4d0-4d7e-b436-de913efc1992/dbe7e60f-a367-4299-b298-ec332c6c9931"
+					(reference "R3")
 					(unit 1)
 				)
 			)
