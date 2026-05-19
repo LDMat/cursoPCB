@@ -256,7 +256,11 @@
       "Resistencias"
     ],
     "pinned_symbol_libs": [
-      "resistor"
+      "resistor",
+      "antennas",
+      "connectors",
+      "ic_control",
+      "ic_power"
     ]
   },
   "meta": {
