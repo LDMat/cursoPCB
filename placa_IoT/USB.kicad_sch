@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "8571a56f-0d40-4c6a-b18b-5cceec1e20ac")
+	(uuid "4d41f669-d2e8-486e-97b5-7a9ebf7b3b5e")
 	(paper "A4")
 	(title_block
 		(title "Bloque Batería")
@@ -2215,18 +2215,7 @@
 		)
 		(uuid "faccfa33-e45e-4763-8239-b800b3ff748a")
 	)
-	(hierarchical_label "DM"
-		(shape bidirectional)
-		(at 63.5 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ef8a88a-b93d-4f27-85e4-7e4afcaa159a")
-	)
-	(hierarchical_label "DP"
+	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 63.5 81.28 180)
 		(effects
@@ -2235,7 +2224,18 @@
 			)
 			(justify right)
 		)
-		(uuid "6c2aaa8c-63c0-4449-a0f4-eff83ec4628e")
+		(uuid "4d391f3c-a040-48cd-8604-e9a17fc088fa")
+	)
+	(hierarchical_label "D+"
+		(shape bidirectional)
+		(at 63.5 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3734d52-d456-4926-b821-eddb2a13c0b1")
 	)
 	(symbol
 		(lib_id "Device:D_TVS")

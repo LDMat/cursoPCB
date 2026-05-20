@@ -3398,7 +3398,7 @@
 		(uuid "89f5982e-b48f-47ea-80d9-15ad449acba1")
 	)
 	(hierarchical_label "IO1"
-		(shape bidirectional)
+		(shape output)
 		(at 246.38 132.08 0)
 		(effects
 			(font
