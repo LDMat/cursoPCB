@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 167.64 73.66)
-		(size 90.17 152.4)
+		(at 157.48 25.4)
+		(size 119.38 234.95)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "0cd0be93-18cf-4820-bfba-3fad5d8b1b5f")
 		(property "Sheetname" "MICROCONTROLADOR"
-			(at 167.64 72.9484 0)
+			(at 157.48 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" ",icrocontrolador.kicad_sch"
-			(at 167.64 226.6446 0)
+			(at 157.48 260.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58,8 +58,8 @@
 		)
 	)
 	(sheet
-		(at 31.75 36.83)
-		(size 96.52 100.33)
+		(at 31.75 25.4)
+		(size 114.3 123.19)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74,7 +74,7 @@
 		)
 		(uuid "563a3e0c-d31e-4af6-9687-3a7ec04f8fe1")
 		(property "Sheetname" "RF"
-			(at 31.75 36.1184 0)
+			(at 31.75 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "RF.kicad_sch"
-			(at 31.75 137.7446 0)
+			(at 31.75 149.1746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -104,8 +104,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 180.34)
-		(size 101.6 83.82)
+		(at 30.48 168.91)
+		(size 115.57 95.25)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -120,7 +120,7 @@
 		)
 		(uuid "8cb378a4-097e-410c-a484-041b2a714115")
 		(property "Sheetname" "BATERIA"
-			(at 30.48 179.6284 0)
+			(at 30.48 168.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,8 +150,54 @@
 		)
 	)
 	(sheet
-		(at 290.83 85.09)
-		(size 102.87 127)
+		(at 288.29 16.51)
+		(size 115.57 93.98)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c776ea55-95d5-4a5d-aaf5-4394732796ff")
+		(property "Sheetname" "USB"
+			(at 288.29 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 288.29 111.0746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "placa_IoT"
+				(path "/5cf00a4a-c4d0-4d7e-b436-de913efc1992"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.29 119.38)
+		(size 114.3 127)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -166,7 +212,7 @@
 		)
 		(uuid "dbe7e60f-a367-4299-b298-ec332c6c9931")
 		(property "Sheetname" "ALIMENTACION"
-			(at 290.83 84.3784 0)
+			(at 288.29 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -177,7 +223,7 @@
 			)
 		)
 		(property "Sheetfile" "alimentacion.kicad_sch"
-			(at 290.83 212.6746 0)
+			(at 288.29 246.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

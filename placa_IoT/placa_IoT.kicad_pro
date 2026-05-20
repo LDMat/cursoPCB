@@ -424,7 +424,7 @@
         "uuid": "5cf00a4a-c4d0-4d7e-b436-de913efc1992"
       }
     ],
-    "used_designators": "R6-22,J1-5,D1-6,#PWR32-62,C21-28,SW1-4,U5-6,Q1-2",
+    "used_designators": "R6-26,J1-5,D1-9,#PWR32-65,C21-28,SW1-4,U5-6,Q1-2,FL1",
     "variants": []
   },
   "sheets": [
@@ -447,6 +447,10 @@
     [
       "563a3e0c-d31e-4af6-9687-3a7ec04f8fe1",
       "RF"
+    ],
+    [
+      "c776ea55-95d5-4a5d-aaf5-4394732796ff",
+      "USB"
     ]
   ],
   "text_variables": {},

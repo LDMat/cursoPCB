@@ -5640,7 +5640,7 @@
 		(dnp no)
 		(uuid "b5166959-83aa-4bdc-8fa1-7ec358f5b2be")
 		(property "Reference" "J3"
-			(at 20.32 88.9 0)
+			(at 24.13 95.885 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5651,7 +5651,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-K-S(LF)(SN)"
-			(at 20.32 91.44 0)
+			(at 34.925 98.425 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
