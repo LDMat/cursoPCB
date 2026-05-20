@@ -1749,7 +1749,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ad7665b-d2d4-486a-a608-c73209ab72f7")
 		(property "Reference" "C23"
@@ -2517,7 +2517,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c2b7fbee-a2ff-45d7-add8-8bbee5195baf")
 		(property "Reference" "C22"
